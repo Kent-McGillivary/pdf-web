@@ -1,0 +1,11 @@
+.container {
+    background-color: purple;
+    padding:20px;
+}
+
+.pdf-area {
+    background-color: cyan;
+    height:800px;
+    width:700px;
+    display: flex;
+}

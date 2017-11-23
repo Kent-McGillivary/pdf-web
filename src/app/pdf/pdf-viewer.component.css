@@ -1,0 +1,52 @@
+:host {
+    background-color: #3E3E3E;
+    flex:1;
+}
+
+button:focus {outline:0;}
+
+.sidebar-button {
+    background: none;
+    height:25px;
+    width:32px;
+    border:none;
+    position: relative;
+    
+}
+
+.sidebar-button img {
+    position: absolute;
+    left:0;
+    top:0;
+    padding:4px 6px 4px 7px;
+}
+
+.sidebar-button:hover,.sidebar-button:focus {
+    border: 1px solid hsla(0,0%,0%,.35);
+    background-color: hsla(0,0%,0%,.2);
+    box-shadow: 0 1px 0 hsla(0,0%,100%,.05) inset,
+                0 0 1px hsla(0,0%,100%,.15) inset,
+                0 0 1px hsla(0,0%,0%,.05);
+    z-index: 199;
+    border-radius: 2px;
+}
+
+.sidebar-button:hover img,.sidebar-button:focus img {
+    padding:3px 5px 3px 6px;
+}
+
+
+.toolbar {
+    height: 27px;
+    padding:5px 0 5px 5px;
+    box-shadow: inset 0 1px 1px hsla(0,0%,0%,.15),
+     inset 0 -1px 0 hsla(0,0%,100%,.05), 
+     0 1px 0 hsla(0,0%,0%,.15), 0 1px 1px hsla(0,0%,0%,.1);
+}
+/* .sidebar-button::before {
+    position: absolute;
+    display: inline-block;
+    top: 4px;
+    left: 7px;
+    content: url(images/toolbarButton-sidebarToggle@2x.png);
+} */
